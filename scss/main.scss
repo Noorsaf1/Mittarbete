@@ -4,49 +4,55 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-}
-}
-
-header {
+  }
+  
+  header {
 	background-color: rgba(163, 158, 158, 0.185);
 	width: 100%;
 	position: fixed;
 	z-index: 999;
 	display: flex;
 	padding: 10px 200px;
-}
-.navigation {
+  }
+  
+  .navigation {
 	margin-right: 0;
 	margin-left: 90%;
 	display: flex;
+  
 	a {
-		color: rgb(255, 255, 255);
-		text-decoration: none;
-		font-size: 1.1em;
-		font-weight: 500;
-		padding-left: 30px;
-		&:hover {
-			color: rgba(255, 255, 255, 0.712);
-		}
+	  color: #fff;
+	  text-decoration: none;
+	  font-size: 1.1em;
+	  font-weight: 500;
+	  padding-left: 30px;
+  
+	  &:hover {
+		color: rgba(255, 255, 255, 0.712);
+	  }
 	}
-}
-.startpage-text {
+  }
+  
+  .startpage-text {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: rgb(255, 255, 255);
+	color: #fff;
 	text-align: center;
-}
-h1 {
+  }
+  
+  h1 {
 	text-align: center;
 	font-size: 1.4em;
-}
-h4 {
+  }
+  
+  h4 {
 	text-align: center;
 	font-size: 16px;
-}
-.main {
+  }
+  
+  .main {
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
@@ -56,8 +62,9 @@ h4 {
 	background-position: center;
 	margin: 0 auto;
 	text-align: center;
-}
-.profile {
+  }
+  
+  .profile {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
@@ -69,89 +76,100 @@ h4 {
 	vertical-align: top;
 	margin-left: 8%;
 	text-align: center;
-}
-img {
+  }
+  
+  img {
 	width: 350px;
 	height: 350px;
 	border-radius: 50%;
-}
-.profiler {
+  }
+  
+  .profiler {
 	padding: 40px;
 	margin-left: 20px;
 	margin-right: 30px;
 	margin-top: 20px;
-	background-color: rgb(216, 207, 207);
+	background-color: #d8cfcf;
 	font-size: 15px;
 	border: none;
 	border-radius: 5px;
 	margin-bottom: 20px;
-}
-.footer {
+  }
+  
+  .footer {
 	background-color: black;
 	padding: 25px 0;
-}
-.container {
+  }
+  
+  .container {
 	max-width: 1170px;
 	background-color: black;
 	margin: auto;
 	flex: auto;
-}
-.row {
+  }
+  
+  .row {
 	display: flex;
 	flex-wrap: wrap;
-}
-.footer-map {
+  }
+  
+  .footer-map {
 	font-size: 18px;
 	color: white;
-	text-transform: capitalize;
 	margin-bottom: 30px;
 	position: relative;
 	font-weight: 500;
 	width: 33%;
 	padding: 0 15px;
-}
-.footer-conatact {
+  }
+  
+  .footer-conatact {
 	font-size: 18px;
 	color: white;
-	text-transform: capitalize;
 	margin-bottom: 30px;
 	position: relative;
 	font-weight: 500;
 	width: 35%;
 	padding: 0 15px;
-}
-.footer-social {
+  }
+  
+  .footer-social {
 	font-size: 18px;
 	color: white;
-	text-transform: capitalize;
 	margin-bottom: 30px;
 	position: relative;
 	font-weight: 500;
 	width: 30%;
 	padding: 0 80px;
-}
-.map {
+  }
+  
+  .map {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin-left: 20%;
 	height: 5%;
-}
-.map1 {
+  }
+  
+  .map1 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin-right: -0.55em;
 	height: 5%;
-}
-.map2 {
+  }
+  
+  .map2 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin-right: -1.4em;
-}
-.f-contact {
+  }
+  
+  .f-contact {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	height: 5%;
-}
-.f-contact1 {
+  }
+  
+  .f-contact1 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin-right: 22.5%;
-}
-.social-links {
+  }
+  
+  .social-links {
 	margin-left: 35%;
-}
+  }

@@ -1,16 +1,11 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-/* för mobilen */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: red;
- }
-}
+
 header {
   background-color: rgba(163, 158, 158, 0.185);
   width: 100%;
@@ -19,6 +14,7 @@ header {
   display: flex;
   padding: 10px 200px;
 }
+
 .navigation {
   margin-right: 0;
   margin-left: 90%;
@@ -34,6 +30,7 @@ header {
 .navigation a:hover {
   color: rgba(255, 255, 255, 0.712);
 }
+
 .startpage-text {
   position: absolute;
   top: 50%;
@@ -42,14 +39,17 @@ header {
   color: #fff;
   text-align: center;
 }
+
 h1 {
   text-align: center;
   font-size: 1.4em;
 }
+
 h4 {
   text-align: center;
   font-size: 16px;
 }
+
 .main {
   width: 100%;
   min-height: 100vh;
@@ -61,6 +61,7 @@ h4 {
   margin: 0 auto;
   text-align: center;
 }
+
 .profile {
   display: flex;
   flex-flow: row wrap;
@@ -74,11 +75,13 @@ h4 {
   margin-left: 8%;
   text-align: center;
 }
+
 img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
 }
+
 .profiler {
   padding: 40px;
   margin-left: 20px;
@@ -90,72 +93,83 @@ img {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
 .footer {
   background-color: black;
   padding: 25px 0;
 }
+
 .container {
   max-width: 1170px;
   background-color: black;
   margin: auto;
   flex: auto;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+
 .footer-map {
   font-size: 18px;
   color: white;
-  text-transform: capitalize;
   margin-bottom: 30px;
   position: relative;
   font-weight: 500;
   width: 33%;
   padding: 0 15px;
 }
+
 .footer-conatact {
   font-size: 18px;
   color: white;
-  text-transform: capitalize;
   margin-bottom: 30px;
   position: relative;
   font-weight: 500;
   width: 35%;
   padding: 0 15px;
 }
+
 .footer-social {
   font-size: 18px;
   color: white;
-  text-transform: capitalize;
   margin-bottom: 30px;
   position: relative;
   font-weight: 500;
   width: 30%;
   padding: 0 80px;
 }
+
 .map {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-left: 20%;
   height: 5%;
 }
+
 .map1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-right: -0.55em;
   height: 5%;
 }
+
 .map2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-right: -1.4em;
 }
+
 .f-contact {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 5%;
 }
+
 .f-contact1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-right: 22.5%;
 }
+
 .social-links {
   margin-left: 35%;
 }
+
+/*# sourceMappingURL=main.css.map */
